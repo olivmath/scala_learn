@@ -45,7 +45,7 @@ object VarVal extends App {
 
 
 	// soma
-	1 + 1
+	1 + 12
 
 
 }
