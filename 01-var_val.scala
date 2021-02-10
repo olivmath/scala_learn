@@ -44,4 +44,8 @@ object VarVal extends App {
 	val fracaoPrecisa: Double = 3.1415639574D
 
 
+	// soma
+	1 + 1
+
+
 }
