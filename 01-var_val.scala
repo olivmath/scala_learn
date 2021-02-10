@@ -9,7 +9,7 @@ object VarVal extends App {
 	val nome: String = "Lucas"
 
 	// Mutaveis
-	var idade: uint = 23000
+	var idade: Int = 23000
 	var estadoCivil: String = "casado"
 
 	/*
