@@ -26,7 +26,7 @@ object Ifelse extends App {
 
 	/*
 		Em Scala não é preciso usar um operador
-		ternário pois `is-else` sempre retornam
+		ternário pois `if-else` sempre retornam
 		resultados
 	*/
 

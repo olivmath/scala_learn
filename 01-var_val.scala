@@ -30,4 +30,7 @@ object VarVal extends App {
 	// Double
 	val fracaoPrecisa: Double = 3.1415639574D
 
+	// Unit
+	val nada: Unit = ()
+
 }

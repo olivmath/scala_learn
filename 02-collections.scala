@@ -3,13 +3,36 @@ import scala.collection.mutable.ArrayBuffer
 object Collections extends App {
 	/*
 		Collections são os estruturas de dados
+	 
+		[Array]
+		
+		É mutavel por padrão e preserva a ordem e pode conter dados
+		duplicados
+	
+		[List]
+
+		É imutavel por padrão e preserva a ordem de inserção dos dados e
+		pode conter dados duplicados.
+
+		[Sets]
+
+		É imutavel por padrão, não preserva a ordem de inserção dos dados
+		e não guarda dados duplicados
+
+		[Tuple]
+
+
+		É imutavel por padrão, agrupa coleções lógicas simples de itens sem
+		usar classes
+
+		[Map]
+
+		É Mutavel por padrão, 
+
+
+
+
+
 	*/
 
-// [List] É imutavel mesmo se declarado como $var
-	val lista = List(1,2,3,4,5)
-
-// [Array] É mutavel mesmo se declarado como $val
-	val arr = Array(5,4,3,2,1)
-
-// [Map]
 }
