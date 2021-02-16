@@ -67,7 +67,7 @@ object Basico extends App {
 
 	// Fstring
 	val pi: Double = 3.1415987
-	val fString = s"Pi: $pi%.2f"
+	val fString = f"Pi: $pi%.2f"
 
 	// Raw
 	val nRaw = "\nLinha 1\nLinha 2"
