@@ -1,4 +1,9 @@
 object PatternMatching extends App {
+	/*
+		
+		
+	*/
+
 	def mes(number: Int): String = {
 		number match {
 			case 1 => "janeiro"
@@ -17,14 +22,5 @@ object PatternMatching extends App {
 			case _ => s"Numero $number invalido"
 		}
 	}
-	// função mês
-	println(mes(12))
-	println(mes(9))
-	println(mes(13))
-
-	// def orderCurrency(a) = {
-	// 	a match {
-	// 		case a.price => 
-	// 	}
-	// }
+	
 } 

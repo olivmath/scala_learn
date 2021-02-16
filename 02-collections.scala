@@ -27,7 +27,7 @@ object Collections extends App {
 
 		[Map]
 
-		É Mutavel por padrão, 
+		É Mutavel por padrão, estrutura de dados do tipo chave valor
 
 
 
