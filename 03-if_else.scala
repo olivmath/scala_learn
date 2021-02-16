@@ -1,31 +1,36 @@
+import scala.io.StdIn.readLine
+
 object Ifelse extends App {
    	/*
-	If's são blocos de condições que podem desviar o fluxo
-	de execução do seu programa.
+		If's são blocos de condições que podem desviar o fluxo
+		de execução do seu programa.
 
-	Em Scala se usarmos $else_if dentro de uma função
-	temos que adicionar um $else.
+		Em Scala se usarmos $else-if dentro de uma função
+		temos que adicionar um $else.
+		
+		Existem varias formas diferentes de
+		escrevermos as condicionais $if-else
 	*/
-	def typeNumber(a: Int): String = {
-		/*
-		Existem algumas formas de escrevermos condicionais
-		*/
+	def funcNumero(a: Float): String = {
 		if(a % 2 == 0) "é par"
 		
 		else if(a % 2 == 1) {
 			"é impar"
 		}
 		else
-			""
+			"Menor que 1"
 	}
+	
+	println(funcNumero(7))
 
-	println(typeNumber(7))
 
+	/*
+		Em Scala não é preciso usar um operador
+		ternário pois `if-else` sempre retornam
+		resultados
+	*/
 
-	val x = 8
+	val a = if(7 > 5) "Verdadeiro" else "Falso"
+	println(a)
 
-	if(x % 2 == 0)
-		println(s"$x É PAR")
-	else if(x % 2 == 0)
-		println(s"$x É IMPAR")
 }

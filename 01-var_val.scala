@@ -1,5 +1,7 @@
 object VarVal extends App {
 	/*
+<<<<<<< HEAD
+=======
 		Em Scala $var declara uma variavel mutavel
 		enquanto $val decalra uma variavel imutavel
 	*/
@@ -13,6 +15,7 @@ object VarVal extends App {
 	var estadoCivil: String = "casado"
 
 	/*
+>>>>>>> f27bf995e9f4c1b8e3e463e7ed95a36db8e95fc0
 		Tipos de Variaveis:
 	*/
 
@@ -20,13 +23,13 @@ object VarVal extends App {
 	val p: Boolean = true
 
 	// Byte
-	val b: Byte = 101
+	val b: Byte = 1
 
 	// Char
-	val letra: Char = 'a'
+	val letra: Char = 'a' // Aspas Simples para Char
 
 	// String
-	val seqLetra: String = "abcdefg"
+	val seqLetra: String = "Frase Qualquer" // Aspas Duplas para String
 
 	// Short
 	val numeroPequeno: Short = 123
@@ -43,9 +46,7 @@ object VarVal extends App {
 	// Double
 	val fracaoPrecisa: Double = 3.1415639574D
 
-
-	// soma
-	1 + 1
-
+	// Unit
+	val nada: Unit = ()
 
 }
