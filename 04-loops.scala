@@ -40,29 +40,29 @@ object Loops extends App {
 
 	// To
 	for(i <- 0 to 10)
-		print(s"$i ")
+		println(s"$i ")
 
 	// Until
 	for(i <- 0 until 10)
-		print(s"$i ")
+		println(s"$i ")
 
 	// by
 	for(i <- 0 until 10 by 2)
-		print(s"$i ")
+		println(s"$i ")
 
 	// for
 	val lista = List("item1", "item2", "item3", "item4")
 	for(item <- lista)
-		print(s"$item ")
+		println(s"$item ")
 
 	// Condicionais
-	val lista_nomes = Lista("Lucas", "Joao", "Jose", "Maria", "Lucas")
+	val lista_nomes = List("Lucas", "Joao", "Jose", "Maria", "Lucas")
 	for(nome <- lista_nomes if nome == "Lucas")
-		print(s"$nome ")
+		println(s"$nome ")
 
 	// Yield
 	val a = for(i <- 0 until 5) yield i
-	print(a)
+	println(a)
 
 	// Condicionais + Yield
 	val nomes = List("Lucas", "_Maria", "_Jose", "Joao", "Pedro_","Mario","Joaquim_", "Ana", "_Gean")
@@ -79,16 +79,16 @@ object Loops extends App {
 		} println(s"${dim2(x)(y)}")
 
 	// while
-	var contator = 10
-	while(contator > 0) {
-		print(s"$contator ")
-		contator -= 1
+	var cont = 10
+	while(cont > 0) {
+		println(s"$cont ")
+		cont -= 1
 	}
 
 	// do while
 	var contator = 0
 	do {
 		contator += 1
-		print(s"$contator ")
+		println(s"$contator ")
 	} while(contator < 10)
 }
