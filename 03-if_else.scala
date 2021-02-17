@@ -10,6 +10,11 @@ object Ifelse extends App {
 		
 		Existem varias formas diferentes de
 		escrevermos as condicionais $if-else
+
+		[e, ou, not]
+		not   ==    !
+		or    ==    |
+		e     ==    &
 	*/
 	def funcNumero(a: Float): String = {
 		if(a % 2 == 0) "é par"
