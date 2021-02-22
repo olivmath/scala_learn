@@ -11,7 +11,11 @@ object Solution {
         List(strPar, strImpar)
     }
     def main(args: Array[String]) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT.         Your class should be named Solution
+        /* 
+        	Enter your code here.
+        	Read input from STDIN.
+        	Print output to STDOUT.
+        	Your class should be named Solution
         */
         val std = scala.io.StdIn
         
@@ -21,7 +25,9 @@ object Solution {
         
         val strManipulated = for(i <- inputs) yield solve(i)
         
-        println(strManipulated)
+        println(s"${strManipulated(0)(0)} ${strManipulated(0)(1)}")
+        println(s"${strManipulated(1)(0)} ${strManipulated(1)(1)}")
+        
         
     }
 }
