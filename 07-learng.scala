@@ -14,7 +14,7 @@ var d = "abcd"
 
 */
 
-// Impreção
+// Impressão
 /*
 println("Olá Mundo")
 */
@@ -48,3 +48,46 @@ do {
   println("i ainda é menor que 10")
   i += 1
 } while (i < 10)
+
+
+// Day 1 hackerrank
+
+// Sample Input
+
+/*
+12
+4.0
+is the best place to learn and practice coding!
+*/
+
+// Sample Output
+
+/*
+16
+8.0
+HackerRank is the best place to learn and practice coding!
+*/
+
+object Solution {
+    def main(args: Array[String]) {
+        val i = 4
+        val d = 4.0
+        val s = "HackerRank "
+
+		// Read values of another integer, double, and string variables
+        // Note use scala.io.StdIn to read from stdin
+                
+        // Print the sum of both the integer variables
+        println (12 + i)
+        
+        // Print the sum of both the double variables
+        println (d + d)
+        
+        // Concatenate and print the string variables
+        println (s + "is the best place to learn and practice coding!")
+        
+        // The 's' variable above should be printed first.
+    }
+}
+
+
