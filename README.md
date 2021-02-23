@@ -25,6 +25,6 @@ Antes de começarmos vamos montar um ambiente **SIMPLES** pra isso vamos utiliza
 1. Abra o **SublimeText3** na pasta do repositório
 2. **alt + 2** para abrir o **Teminus**
 3. Depois: `sbt` e tenha pacienciência
-4. Dentro so `sbt` rode `run` e seu script será executado
+4. Dentro do `sbt` rode: `run` e seu script será executado
 - [Obs]
 Caso haja mais de um script o **sbt** lhe perguntará qual deve ser executado
