@@ -1,5 +1,30 @@
-<p>Antes de começarmos vamos montar um ambiente <strong>SIMPLES</strong> pra isso vamos utilizar algumas ferramentas</p>
+Antes de começarmos vamos montar um ambiente **SIMPLES** pra isso vamos utilizar algumas ferramentas
 
-<ul><li><p><strong>Instalar jdk-8</strong></p><ul><li><p>https://openjdk.java.net/install/</p><p><br></p></li></ul></li><li><p><strong>Instalar Sbt</strong></p><ul><li><p>https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html</p></li></ul><p><br></p></li><li><p><strong>Instalar Scala</strong></p><ul><li><p>https://www.scala-lang.org/download/</p></li></ul><p><br></p></li><li><p><strong>Instalar SublimeText3</strong></p><ul><li><p>https://www.sublimetext.com/3</p></li></ul><p><br></p></li><li><p><strong>Instalar Terminus</strong></p><ul><li><p>Abrir SublimeText3<strong>&nbsp; &nbsp;ctrl+shift+p&nbsp; &nbsp;</strong>pesquisar<strong>&nbsp; &nbsp;Package Control: Install Package&nbsp; &nbsp;</strong>depois busque por&nbsp; &nbsp;<strong>Terminus</strong></p></li><li><p>Configurar em&nbsp; &nbsp;<strong>Preferences &gt; Package Settings &gt; Terminus &gt; Key Bindings </strong>e adicione no aquivo:</p><pre class="prettyprint linenums">{"keys": ["alt+1"], "command": "toggle_terminus_panel"},
+**[Instalar jdk-8](https://openjdk.java.net/install/)**
 
-{"keys": ["alt+2"], "command": "focus_group", "args": {"group": 0}}</pre></li></ul></li></ul>
+**[Instalar Sbt](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html)**
+
+**[Instalar Scala](https://www.scala-lang.org/download/)**
+
+**[Instalar SublimeText3](https://www.sublimetext.com/3/)**
+
+**Instalar Terminus**
+- Abrir SublimeText3 -> **ctrl + shift + p**
+- pesquisar: Package Control: **Install Package**
+- depois busque por: **Terminus**
+- Configurar em: Preferences -> Package -> Settings -> Terminus Key Bindings
+- Adicione ao aquivo:
+
+```
+{"keys": ["alt+1"], "command": "toggle_terminus_panel"},
+{"keys": ["alt+2"], "command": "focus_group", "args": {"group": 0}}
+```
+
+**Como executar Scripts**
+
+1. Abra o **SublimeText3** na pasta do repositório
+2. **alt + 2** para abrir o **Teminus**
+3. Depois: `sbt` e tenha pacienciência
+4. `run` seu script será executado
+- [Obs]
+Caso haja mais de um script o **sbt** lhe perguntará qual deve ser executado

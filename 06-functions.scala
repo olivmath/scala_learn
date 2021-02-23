@@ -16,7 +16,6 @@ object Functions extends App {
 	val sub = (x: Int, y: Int) => if(x > y) x - y else y - x
 	val soma = (x: Int, y: Int) => x + y
 
-
 	println(soma(3,5))
 	println(sub(3,5))
 	println(div(3,5))

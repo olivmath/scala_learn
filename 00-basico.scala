@@ -7,7 +7,7 @@ object Basico extends App {
 		- Em Scala $var declara uma variavel mutavel
 		  enquanto $val declara uma variavel imutavel
 		- Você pode usar $lazy para inicializar uma
-		  variavel apenas no momento em que ela é chamada
+		  variavel $val apenas no momento em que ela é chamada
 
 		
 		[Input, Output]
@@ -48,7 +48,7 @@ object Basico extends App {
 	var estadoCivil: String = "casado"
 
 	// Lazy
-	lazy var x = 321
+	lazy val x: Int = 321
 
 	// .stripMargin
 	val s = """String
@@ -67,11 +67,9 @@ object Basico extends App {
 
 	// Fstring
 	val pi: Double = 3.1415987
-	val fString = s"Pi: $pi%.2f"
+	val fString = f"Pi: $pi%.2f"
 
 	// Raw
 	val nRaw = "\nLinha 1\nLinha 2"
 	val yRaw = raw"\nLinha 1\nLinha 2"
-
-
 }
