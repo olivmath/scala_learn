@@ -1,5 +1,12 @@
 Antes de começarmos vamos montar um ambiente **SIMPLES** pra isso vamos utilizar algumas ferramentas
 
+Você tbm pode instalar usando o bash-script usando:
+
+```
+./install_prereq.sh
+```
+ 
+
 **[Instalar jdk-8](https://openjdk.java.net/install/)**
 
 **[Instalar Sbt](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html)**
